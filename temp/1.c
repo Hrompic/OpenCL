@@ -24,6 +24,7 @@ void init_kern(cl_context context)
 	Ds(buf);
 	cl_int ret;
 	fclose(f);
+	sz += 1;
 	char *bufptr = buf;
 	pr = clCreateProgramWithSource(context, 1,
 								(const char **)&bufptr, (size_t *)&sz,

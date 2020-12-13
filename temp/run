@@ -1,0 +1,2 @@
+export LD_LIBRARY_PATH=:/system/lib64/:/data/data/com.termux/files/usr/local/lib:/vendor/lib64:/vendor/lib64
+./a.out
